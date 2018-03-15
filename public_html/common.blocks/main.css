@@ -1,0 +1,14 @@
+@import url("page.css");
+
+
+
+body {
+    background-color: rgb(237, 238, 240);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+}
