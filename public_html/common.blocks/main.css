@@ -1,7 +1,10 @@
 @import url("page.css");
+@import url("center_block/center_block.css");
 
 
-
+*{
+	box-sizing: border-box;
+}
 body {
     background-color: rgb(237, 238, 240);
     color: #000;
@@ -11,4 +14,186 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
     line-height: 1.154;
     font-weight: 400;
+}
+img{
+	max-width: 100%;
+}
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+	color: #2a5885;
+	text-decoration: underline;
+}
+
+/*----------------wrap----------------*/
+.center_block_wrap{
+	width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.friends_list_wrap{
+	padding: 20px 20px 0;
+}
+.footer_wrap {
+    padding: 15px 0 0;
+}
+/*------------------center_block--------------------*/
+.center_block{
+	    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 0 #D7D8DB, 0 0 0 1px #E3E4E8;
+}
+
+/*----------------header---------------------*/
+.header{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafbfc;
+    padding: 0 20px;
+    height: 54px;
+    border-bottom: 1px solid #e7e8ec;
+    border-radius: 2px 2px 0 0;
+    font-size: 16px;
+}
+.header__text{
+	    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.header__ext_search{
+	font-size: 13px;
+    background: url(../images/advanced_search.png) no-repeat;
+    background-position: left 2px;
+    padding-left: 25px;
+}
+
+/*--------------------search------------------*/
+.search_input__field{
+	    padding: 14px 44px 13px 48px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    margin: 0;
+    line-height: 18px;
+}
+
+.search_input__field_icon{
+	    background: url(../images/search_icon.png) no-repeat;
+    padding-left: 28px;
+    border-left: 20px solid transparent;
+    background-position: 0;
+    color: #000;
+}
+.search_input_block{
+	position: relative;
+}
+.search_input__reset{
+	    position: absolute;
+    width: 38px;
+    background: url(../images/cross_delete_user.png) no-repeat 50%;
+    top: 0;
+    bottom: 0;
+    right: 6px;
+    cursor: pointer;
+    z-index: 4;
+    opacity: 0.75;
+}
+.search_input__blind_label{
+	    height: 1px;
+    width: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+    outline: none;
+}
+.search_content{
+	    border-bottom: 1px solid #e7e8ec;
+    background-color: #fff;
+}
+/*------------------------friends-find-list----------------*/
+.friends_find_list{
+	    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.friends_find_user{
+	    width: 160px;
+}
+.friends_find_user_photo{
+	    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.friends_find_user_img{
+	    width: 160px;
+    height: 160px;
+    border-radius: 3px;
+}
+.friends_find_user_remove{
+	display: block;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 18px;
+    width: 18px;
+    background: #1d2022 url(../images/cross_delete_user.png) no-repeat 50%;
+    border-radius: 0 3px 0 3px;
+    opacity: 0;
+    cursor: pointer;
+}
+.friends_find_user_photo:hover .friends_find_user_remove {
+    opacity: 0.6;
+}
+.friends_find_user_info_wrap{
+	    padding: 10px 0 21px;
+}
+.friends_find_user_info{
+    font-size: 12.5px;
+    height: 32px;
+    overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+.friends_find_user_name{
+	display: block;
+    font-weight: 700;
+    color: #42648b;
+}
+.friends_find_user_label{
+	    color: #656565;
+}
+.friends_find_user_label, .friends_find_user_name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	margin-right: 20px;
+}
+.friends_find_user_add{
+	position: absolute;
+    width: 20px;
+    height: 22px;
+    background: url(../images/suggested_friends.png) no-repeat 3px 3px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    opacity: 0.65;
+	right: 0;
+	top: calc(50% - 22px/2);
+}
+
+
+/*-----------------------news------------------------------*/
+
+
+/*----------------post-header-------------------*/
+.post_img{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
 }
