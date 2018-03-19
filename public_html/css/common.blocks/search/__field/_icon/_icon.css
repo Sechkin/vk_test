@@ -1,0 +1,7 @@
+.search_input__field_icon{
+    background: url(/vk_test/public_html/out/images/search_icon.png) no-repeat;
+    padding-left: 28px;
+    border-left: 20px solid transparent;
+    background-position: 0;
+    color: #000;
+}

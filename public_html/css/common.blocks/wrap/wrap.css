@@ -1,0 +1,28 @@
+/*----------------wrap----------------*/
+
+.page_wrap{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center_block_wrap{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.friends_list_wrap{
+    padding: 20px 20px 0;
+}
+.feed_row_wrap{
+    padding: 10px 20px 0;
+}
+.footer_wrap {
+    padding: 15px 0 0;
+}
+.narrow_column_wrap{
+	    width: 230px;
+    padding-left: 15px;
+    box-sizing: content-box;
+}
+

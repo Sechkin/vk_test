@@ -1,0 +1,13 @@
+.page_media_link__url{
+        max-width: 300px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    color: #939393;
+    line-height: 12px;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+.page_media_link__url:hover{
+    text-decoration: none;
+    color: #939393;;
+}

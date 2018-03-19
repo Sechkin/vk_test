@@ -1,0 +1,11 @@
+.search_input__reset{
+    position: absolute;
+    width: 38px;
+    background: url(/vk_test/public_html/out/images/cross_delete_user.png) no-repeat 50%;
+    top: 0;
+    bottom: 0;
+    right: 6px;
+    cursor: pointer;
+    z-index: 4;
+    opacity: 0.75;
+}

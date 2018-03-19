@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafbfc;
+    padding: 0 20px;
+    height: 54px;
+    border-bottom: 1px solid #e7e8ec;
+    border-radius: 2px 2px 0 0;
+    font-size: 16px;
+}
+.header__text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.header__ext_search{
+    font-size: 13px;
+    background: url(/vk_test/public_html/out/images/advanced_search.png) no-repeat;
+    background-position: left 2px;
+    padding-left: 25px;
+}
+

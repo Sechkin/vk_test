@@ -1,0 +1,18 @@
+.actions_menu_icons{
+    background: url(/vk_test/public_html/out/images/post_more.png) no-repeat 50%;
+    width: 22px;
+    height: 24px;
+    cursor: pointer;
+    outline: none;
+    content: '';
+}
+.actions_menu_wrap{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 6px;
+}
+.actions_menu{
+    position: absolute;
+    display: none;
+}

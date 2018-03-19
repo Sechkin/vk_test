@@ -1,0 +1,67 @@
+.friends_find_user{
+    width: 160px;
+}
+.friends_find_user_photo{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.friends_find_user_img{
+    width: 160px;
+    height: 160px;
+    border-radius: 3px;
+}
+.friends_find_user_remove{
+    display: block;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    height: 18px;
+    width: 18px;
+    background: #1d2022 url(/vk_test/public_html/out/images/cross_delete_user.png) no-repeat 50%;
+    border-radius: 0 3px 0 3px;
+    opacity: 0;
+    cursor: pointer;
+}
+.friends_find_user_photo:hover .friends_find_user_remove {
+    opacity: 0.6;
+}
+.friends_find_user_info_wrap{
+    padding: 10px 0 21px;
+}
+.friends_find_user_info{
+    font-size: 12.5px;
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.friends_find_user_name{
+    display: block;
+    font-weight: 700;
+    color: #42648b;
+}
+.friends_find_user_label{
+    color: #656565;
+}
+.friends_find_user_label, .friends_find_user_name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.friends_find_user_add{
+    position: absolute;
+    width: 20px;
+    height: 22px;
+    background: url(/vk_test/public_html/out/images/suggested_friends.png) no-repeat 3px 3px;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+    opacity: 0.65;
+    right: 0;
+    top: calc(50% - 22px/2);
+}

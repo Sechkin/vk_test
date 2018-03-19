@@ -1,0 +1,15 @@
+.page_media_link{
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0,20,51,.12);
+    border-radius: 2px;
+}
+.page_media_link_photo{
+    font-size: 0;
+}
+.page_media_link_desc_wrap{
+    padding: 10px 15px 11px;
+    line-height: 17px;
+    font-size: 12.5px;
+}
+
